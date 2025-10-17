@@ -39,7 +39,7 @@ a {
 
 a:hover,
 a:focus {
-    color: var(--color-surface);
+    color: var(--color-accent);
 }
 
 img {
@@ -66,6 +66,7 @@ img {
 .button:focus {
     box-shadow: 0 12px 30px rgba(76, 60, 147, 0.25);
     transform: translateY(-2px);
+    color: #fff;
 }
 
 .site-header {
@@ -677,4 +678,5 @@ img {
     .contact-form label {
         margin-top: 1rem;
     }
+
 }
